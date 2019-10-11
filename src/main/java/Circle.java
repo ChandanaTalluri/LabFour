@@ -54,7 +54,7 @@ public class Circle {
             double circumference = circumference(pi, radius);
             String output = String.format("Area of the circle :%.2f\n Diameter of the circle : %.2f\n"
                     + " Circumference of the circle : %.2f", area,diameter,circumference);
-            System.err.println(output);
+            System.out.println(output);
             
         }catch(Exception e ){
              System.out.println("Alphabets and special charecters are not allowed");
